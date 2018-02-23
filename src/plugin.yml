@@ -1,0 +1,15 @@
+name: JederSign
+main: com.jeder.jederSign.Main
+version: 2.0
+author: Ostrichbeta Chan
+description: JederSign的GUI增強版本
+commands:
+  jederSign:
+    permission: jederSign.*
+    description: JederSign插件的主要指令
+    aliases: sign
+
+permissions:
+  jederSign.*:
+    description: JederSign插件的主要權限
+    default: op
